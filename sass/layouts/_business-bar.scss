@@ -1,0 +1,41 @@
+.business-bar {
+    max-width: 1600px;
+    height: 600px;
+    padding: 200px 0;
+    margin: auto;
+    text-align: center;
+    border: 1px solid ;
+    background-image: linear-gradient(#2F303A80, #2F303A40), url(../images/Img.jpg); 
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+
+    &__title {
+        margin-top: 0;
+        margin-bottom: 30px; 
+        font-family: var(--primary-font);
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--text-secondary-ligter);
+    }
+
+    &__section-button {
+        display: inline-block;
+        padding: 10px 32px;
+        background: var(--theme-color);
+        border-radius: 4px;
+        min-width: 200px;
+        border: transparent;
+        text-align: center;
+    
+        font-family: var(--primary-font);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+    
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        color: var(--text-secondary-ligter);
+    }    
+}

@@ -1,0 +1,203 @@
+.foot-box {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #2F303A;
+}
+
+.footing {
+    display: flex;
+    align-items: baseline; 
+    background: #2F303A;
+}
+
+.footer {
+    background: #2F303A;
+
+    &__logo {
+        margin-top: 0;
+        width: 20px;
+        height: 20px;   
+        fill: var(--text-secondary-ligter);
+    }  
+
+    &__logo-first {
+        font-family: var(--secondary-font);
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 1.2;
+                letter-spacing: 0.03em;
+                color: var(--theme-color);
+    }
+
+    &__logo-last {
+        font-family: var(--secondary-font);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: var(--text-secondary-ligter);
+    }
+
+    &__adress-items {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__links {
+        margin-bottom: 10px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__adress-link {
+        font-family: var(--primary-font);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: var(--text-secondary-ligter);
+    }
+
+    &__mail-link {
+        font-family: var(--primary-font);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    &__phone-link {
+        font-family: var(--primary-font);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    &__navigation {
+        margin-left: 70px;  
+    } 
+    
+    &__text {
+        margin: 0px 0px 20px 0px;
+        padding: 0;
+        font-family: var(--primary-font);
+        font-weight: 700px;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--text-secondary-ligter);
+    }
+
+    &__join {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    } 
+
+    &__join-link {
+        &:not(:last-child) {
+        margin-right: 10px;
+        } 
+    }
+
+    &__icon {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: #44454E;
+    
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        &:focus,
+        &:hover {
+            background: var(--theme-color);
+        }
+    }   
+}
+
+.subscription {
+    display: block;
+    margin-left: auto;
+}
+
+.sub-form {
+    display: flex;
+    flex-direction: column;
+
+    &__text-use {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        padding: 0;
+        margin: 0;
+        border: none;
+    
+        color: var(--text-secondary-ligter);
+    }
+
+    &__sub-name {
+        display: flex;
+    }
+
+    &__sub-mail {
+        display: flex;
+        margin-top: 20px;
+        width: 358px;
+        height: 50px;
+        padding: 16px 17px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-sizing: border-box;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        background-color: #2f303a;
+    }
+
+    &__sub-btn {
+        width: 200px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 12px;
+        font-family: var(--primary-font);
+        font-weight: bold;
+        border: transparent;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
+        background: var(--theme-color);
+        border-radius: 4px;
+        color: #FFFFFF;
+        background-image: url(../images/icon_send.svg);
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: 150px;
+        &:hover {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        }
+    }
+
+    &__text-span {
+        margin-left: -30px;
+    }
+}
+
+.label {
+    cursor: default;
+}
+

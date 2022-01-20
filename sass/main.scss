@@ -1,0 +1,22 @@
+// Variables
+@import './utils/vars';
+
+// Base styles
+@import './base/reset';
+@import './base/base-styles';
+
+// Layout
+@import './layouts/header';
+@import './layouts/business-bar';
+@import './layouts/description-bar';
+@import './layouts/doing-bar';
+@import './layouts/crew-bar';
+@import './layouts/clients-bar';
+@import './layouts/foot-box';
+
+// Portfolio
+@import './layouts/buttons-portfolio';
+@import './layouts/products-portfolio';
+
+// Modal
+@import './layouts/backdrop';
